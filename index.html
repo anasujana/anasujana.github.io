@@ -27,6 +27,20 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <style>
+    .uniform-image {
+      width: 100%; /* Mengisi lebar kolom */
+      height: 250px; /* Tinggi seragam untuk semua gambar */
+      object-fit: cover; /* Memastikan gambar tetap proporsional tanpa distorsi */
+      border-radius: 0px; /* Opsional: menambahkan sudut yang lebih halus */
+    }
+
+    .align-images {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  </style>
+
 </head>
 
 <body class="index-page">
@@ -98,40 +112,42 @@
 
     </section><!-- /Home Section -->
 
+   <!-- History Section -->
     <!-- History Section -->
-    <section id="about" class="about section">
-      <div class="container" data-aos="" data-aos-delay="100">
-        <div class="row align-items-xl-center gy-5">
-          <div class="col-xl-5 content">
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-              <h2>History</h2>
-              <div><span>History Of</span> <span class="description-title">TSC FC</span></div>
-            </div><!-- End Section Title -->
-            <p style="text-align: justify;">        
-                Tasik Selatan Society FC (TSC FC) adalah komunitas fun football yang didirikan pada 2021 di Cikarang. Berawal dari sekumpulan teman yang memiliki kecintaan terhadap sepak bola, TSC FC bertujuan menjadi wadah bagi para pecinta sepak bola untuk bermain santai, menjaga kebugaran, dan menjalin persahabatan. Komunitas ini terus berkembang dengan anggota dari berbagai latar belakang dan aktif mengadakan latihan rutin serta pertandingan persahabatan. TSC FC menjunjung semangat kebersamaan dan inklusivitas, menjadikannya komunitas yang solid dan dihormati di wilayah Tasik Selatan.
-            </p>
+<section id="about" class="about section">
+  <div class="container" data-aos="" data-aos-delay="100">
+    <div class="row align-items-xl-center gy-5">
+      <div class="col-xl-5 content">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>History</h2>
+          <div><span>History Of</span> <span class="description-title">TSC FC</span></div>
+        </div><!-- End Section Title -->
+        <p style="text-align: justify;">        
+          Tasik Selatan Society FC (TSC FC) adalah komunitas fun football yang didirikan pada 2021 di Cikarang. Berawal dari sekumpulan teman yang memiliki kecintaan terhadap sepak bola, TSC FC bertujuan menjadi wadah bagi para pecinta sepak bola untuk bermain santai, menjaga kebugaran, dan menjalin persahabatan. Komunitas ini terus berkembang dengan anggota dari berbagai latar belakang dan aktif mengadakan latihan rutin serta pertandingan persahabatan. TSC FC menjunjung semangat kebersamaan dan inklusivitas, menjadikannya komunitas yang solid dan dihormati di wilayah Tasik Selatan.
+        </p>
+      </div>
+      <div class="col-xl-7">
+        <div class="row gy-4 align-images">
+          <div class="col-md-6">
+            <img src="assets/img/pink.jpg" alt="" class="img-fluid uniform-image">
           </div>
-          <div class="col-xl-7">
-            <div class="row gy-4 ">
-              <div class="col-md-6">
-                <img src="assets/img/pink.jpg" alt="" width="300px">
-              </div>
-              <div class="col-md-6" >
-                <img src="assets/img/hitam.jpg" alt="" width="300px" height="240px">
-              </div>
-              <div class="col-md-6" >
-                <img src="assets/img/kuning (2).jpg" alt="" width="300px" >
-              </div>
-              <div class="col-md-6" >
-                <img src="assets/img/gallery/tsc8.jpeg" alt="" width="300px">
-              </div>
-            </div>
+          <div class="col-md-6">
+            <img src="assets/img/hitam.jpg" alt="" class="img-fluid uniform-image">
+          </div>
+          <div class="col-md-6">
+            <img src="assets/img/kuning (2).jpg" alt="" class="img-fluid uniform-image">
+          </div>
+          <div class="col-md-6">
+            <img src="assets/img/gallery/tsc8.jpeg" alt="" class="img-fluid uniform-image">
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</section><!-- /History Section -->
 
-    </section><!-- /History Section -->
+
 
     <!-- Partner Section -->
     <section id="features" class="features section">
